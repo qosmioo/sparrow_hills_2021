@@ -8,8 +8,7 @@ class Complex {
 public:
     Complex() {
     }
-
-    Complex(const double real, const double imaginary) {
+	Complex(const double real, const double imaginary) {
         _real = real;
         _imaginary = imaginary;
     }
@@ -33,6 +32,7 @@ public:
         if (_real == other._real && _imaginary == other._imaginary) {
             return 0;
         }
+        return 1;
     }
 
     bool operator==(const Complex& other) const {
