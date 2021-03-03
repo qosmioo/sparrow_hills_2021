@@ -6,7 +6,7 @@ using namespace std;
 class Complex {
 
 public:
-    Complex() {
+    Complex() { 
     }
 	Complex(const double real, const double imaginary) {
         _real = real;
@@ -79,7 +79,7 @@ private:
 };
 
 int main() {
-    int errors = 0, tests = 0;
+    int errors = 0,  tests = 0;
     Complex a;
 
     Complex b(1, 2);
